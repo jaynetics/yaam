@@ -6,11 +6,14 @@ export const calculate = (input: string) => {
   return ast.calculate()
 }
 
-export const tryCalculate = (input: string): number | null => {
+export const tryCalculate = (
+  input: string,
+  opts: {verbose?: boolean} = {}
+): number | null => {
   try {
     return calculate(input)
   } catch (e) {
-    console.log(e)
+    if (opts.verbose) console.log(e)
     return null
   }
 }

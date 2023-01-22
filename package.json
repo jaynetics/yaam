@@ -1,6 +1,6 @@
 {
   "name": "yaam",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Yet Another Arithmetics Module - calculate expressions without eval",
   "files": [
     "/dist/",

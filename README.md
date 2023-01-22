@@ -11,4 +11,5 @@ calculate("foo") // ERROR
 
 tryCalculate("2.5 % 2") // => 0.5
 tryCalculate("foo") // null
+tryCalculate("foo", { verbose: true }) // null, but logs to console
 ```
