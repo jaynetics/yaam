@@ -1,6 +1,6 @@
 {
   "name": "yaam",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Yet Another Arithmetics Module - calculate expressions without eval",
   "files": [
     "/dist/",
@@ -10,6 +10,7 @@
   "main": "./dist/index.js",
   "scripts": {
     "build": "tsc -p tsconfig.json",
+    "prepare": "npm run build",
     "test": "jest"
   },
   "keywords": [
